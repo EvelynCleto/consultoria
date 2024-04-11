@@ -61,4 +61,3 @@ body { font-family: 'Open Sans', sans-serif; background: #fff; color: #333; }
 .subscribe input[type="email"] { padding: 15px; margin-right: 10px; width: calc(100% - 120px); border: none; border-radius: 5px; }
 .subscribe button { padding: 15px 30px; background: #ffc107; color: white; cursor: pointer; font-size: 1rem; font-weight: 600; border-radius: 5px; transition: background-color 0.3s; }
 .subscribe button:hover { background: #e0a800; }
-</style>

@@ -10,15 +10,15 @@
 
 <div class="container">
   <!-- Cabeçalho -->
-  <div class="header">
+  <header class="header">
     <h1>Get Jefferson</h1>
     <h2>EXPERT CONSULTANTS</h2>
     <button>Book Consultation</button>
     <button>Learn More</button>
-  </div>
+  </header>
 
   <!-- Estatísticas -->
-  <div class="stats">
+  <section class="stats">
     <div>
       <h2>1M+</h2>
       <p>Consultations</p>
@@ -31,42 +31,56 @@
       <h2>4.9</h2>
       <p>Rating</p>
     </div>
-  </div>
+  </section>
 
   <!-- Serviços -->
-  <div class="services">
+  <section class="services">
     <h2 class="section-title">Services we offer for you</h2>
-    <!-- Adicione itens de serviço aqui -->
-  </div>
+    <div class="service-item">
+      <img src="service1.jpg" alt="Service 1">
+      <div>
+        <h3>Service 1</h3>
+        <p>Descrição do serviço 1.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="service2.jpg" alt="Service 2">
+      <div>
+        <h3>Service 2</h3>
+        <p>Descrição do serviço 2.</p>
+      </div>
+    </div>
+    <!-- Adicione mais itens de serviço conforme necessário -->
+  </section>
 
   <!-- Por que nos escolher -->
-  <div class="why-choose-us">
+  <section class="why-choose-us">
     <h2 class="section-title">Why you should choose us?</h2>
     <div class="reason">
       <img src="professional-icon.png" alt="Professionals">
       <div>
         <h3>We have professionals</h3>
-        <p>Descrição do motivo.</p>
+        <p>Nossos profissionais são altamente qualificados e experientes.</p>
       </div>
     </div>
     <div class="reason">
       <img src="respect-icon.png" alt="Respect">
       <div>
         <h3>We Respect our Customers</h3>
-        <p>Descrição do motivo.</p>
+        <p>Respeitamos profundamente nossos clientes e suas necessidades.</p>
       </div>
     </div>
     <div class="reason">
       <img src="magic-icon.png" alt="Magic Touch">
       <div>
         <h3>We Have Magic Touch</h3>
-        <p>Descrição do motivo.</p>
+        <p>Nosso toque mágico transforma desafios em soluções eficazes.</p>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Depoimentos -->
-  <div class="testimonials">
+  <section class="testimonials">
     <h2 class="section-title">Our customers always prefer us because we provide solutions that work!</h2>
     <div class="testimonial">
       <img src="client1.jpg" alt="John Doe">
@@ -80,23 +94,27 @@
       <img src="client3.jpg" alt="Robert Doe">
       <p>"I would recommend them anytime. They did an excellent job!" - Robert Doe</p>
     </div>
-  </div>
+  </section>
 
   <!-- Contato -->
-  <div class="contact">
+  <section class="contact">
     <h2 class="section-title">Get free consultancy from our expert consultants!</h2>
     <form>
-      <!-- Adicione campos de formulário aqui -->
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
       <input type="submit" value="Book Consultation">
     </form>
-  </div>
+  </section>
 
   <!-- Inscrever-se -->
-  <div class="subscribe">
+  <section class="subscribe">
     <h2 class="section-title">Subscribe to our newsletter to get latest news on your e-mail</h2>
-    <input type="email" placeholder="Enter your email">
-    <button>Subscribe</button>
-  </div>
+    <form>
+      <input type="email" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
 </div>
 
 </body>
